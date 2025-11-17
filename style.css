@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+#title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+#addBtn {
+  margin-left: 10px;
+  padding: 5px 10px;
+}
+
+#todoList li {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+#todoList li.completed {
+  text-decoration: line-through;
+  background: #e7ffe7;
+}
