@@ -23,5 +23,6 @@ body {
 
 #todoList li.completed {
   text-decoration: line-through;
+  font-size: larger;
   background: #e7ffe7;
 }

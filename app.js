@@ -3,7 +3,7 @@ const input = document.getElementById("todoInput");
 const addBtn = document.getElementById("addBtn");
 const todoList = document.getElementById("todoList");
 
-console.log(title);
+console.log(input);
 
 title.textContent = "DOM Manipulation Demo (JavaScript)";
 
