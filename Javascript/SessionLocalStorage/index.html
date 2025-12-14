@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple To-Do App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Link to our CSS file -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="customAlert" class="alert-box" style="display: none"></div>
+
+    <div class="container">
+      <h2>My To-Do List</h2>
+
+      <!-- Input section -->
+      <div class="input-container">
+        <input type="text" id="taskInput" placeholder="Enter a new task..." />
+        <button onclick="addTask()">Add Task</button>
+      </div>
+
+      <!-- List where tasks will be added -->
+      <ul id="taskList"></ul>
+
+      <!-- Clear button -->
+      <button class="clear-btn" onclick="clearAllTasks()">
+        Clear All Tasks
+      </button>
+    </div>
+
+    <!-- Link to our JavaScript file -->
+    <script src="app.js"></script>
+  </body>
+</html>
