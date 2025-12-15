@@ -21,25 +21,25 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="customAlert" class="alert-box" style="display: none"></div>
+    <!-- Heading -->
+    <header class="heading">
+      <h1>To do application</h1>
+      <h6>Simplify your routine tasks!</h6>
+    </header>
 
-    <div class="container">
-      <h2>My To-Do List</h2>
-
-      <!-- Input section -->
-      <div class="input-container">
-        <input type="text" id="taskInput" placeholder="Enter a new task..." />
-        <button onclick="addTask()">Add Task</button>
-      </div>
-
-      <!-- List where tasks will be added -->
-      <ul id="taskList"></ul>
-
-      <!-- Clear button -->
-      <button class="clear-btn" onclick="clearAllTasks()">
-        Clear All Tasks
-      </button>
-    </div>
+    <section class="main-section">
+      <article class="box-container">
+        <input
+          type="text"
+          name="text"
+          class="input"
+          id="input"
+          placeholder="Enter new task..."
+        />
+        <button class="btn" id="add-task-btn">Add task</button>
+        <ul id="list-container"></ul>
+      </article>
+    </section>
 
     <!-- Link to our JavaScript file -->
     <script src="app.js"></script>

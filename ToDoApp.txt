@@ -1,0 +1,100 @@
+			To do Application
+
+Task #1: (5-minutes)
+	Create a new folder
+		- Create index.html
+		- create style.css
+		- create app.js
+	- Add style.css and app.js in index.html file.
+
+Task #2: (5 minutes)
+	- Add google fonts and bootstrap in your index.html
+		- Entire body should use Poppins/Roboto.
+	- Add a heading of your application i.e. To Do Application
+	- Add a sub heading stating description of your application
+	
+Task #3: (5 minutes)
+	- Add necessary styling i.e.
+		- Center align heading with some background and/or shadow
+		
+Task #4: (10 minutes)
+	- Create a box container using any semantic/non-semantic tag.
+		- Add shadow from this: 
+		https://ui.aceternity.com/tools/box-shadows
+	- Apply flex display with center alignment to to the children of the box container.
+		- Add a background 
+		may be from: https://uigradients.com
+		
+Task #05: (10 minutes)
+	- Add following fields inside the box container:
+		1. input (<input>)
+		2. button (<button>)
+		3. Unordered list but empty (<ul>)
+	- Each field should have its unique and meaningful id
+	You can take design inspiration from:
+		uiverse.io
+
+Task #06: (5 minutes)
+	- Get all properties using id and store in a variable/const.
+	
+
+Task #07: 
+- Create a function named "AddTask"
+- The function should get the value from input tag.
+- Create a list item i.e. li and apply value of input to the li textcontent:
+	li.textContent = value
+- Then, List (ul) should add li using appendChild.
+
+
+
+Task #08:
+	- Apply necessary styling to ul and li.
+		- it should be consistent with you application design.
+		
+Task #09: 
+	- Add a delete button on each li which should call another function "deleteTask"
+	- The deleteTask function should remove the li from the ul.
+	
+Task #10:
+	- Add another button on each li which should edit the task
+	- It should call the editTask button which should allow the user to modify the selected task using alert popup or any other approach of your choice.
+	
+Task #11:
+	- Research on what is Session and Local Storage.
+	- Use local storage to store those tasks to prevent removal of tasks upon each reload.
+	
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	
+	
+	
+	
+	
+	
+	
+	
